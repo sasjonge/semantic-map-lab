@@ -50,39 +50,15 @@ RUN wget -O /tmp/mongodb-compass.deb https://downloads.mongodb.com/compass/mongo
     dpkg -i /tmp/mongodb-compass.deb && \
     rm  /tmp/mongodb-compass.deb
 
-# # Install jupyter knowrob kernel
-# # Source: https://github.com/sasjonge/jupyter-knowrob
-# USER ${NB_USER}
-# WORKDIR ${HOME}
-# RUN git clone https://github.com/sasjonge/jupyter-knowrob.git --recurse-submodules
-# RUN cd jupyter-knowrob && pip install .
-# ARG JK_KERNEL=${HOME}/.local/share/jupyter/kernels/jknowrob
-# RUN mkdir -p ${JK_KERNEL} && \
-#     cp jupyter-knowrob/kernel.json ${JK_KERNEL}
-# RUN cp -R ${HOME}/jupyter-knowrob/knowrob_cloud ${ROS_WS}/src/
-# COPY --chown=${NB_USER}:users prolog /prolog
-
 # Install Knowrob
 # Source: https://github.com/knowrob/knowrob
 USER ${NB_USER}
-# WORKDIR ${HOME}
 WORKDIR ${ROS_WS}/src
-# Since the .rosinstall file
-# https://github.com/knowrob/knowrob/blob/dev/rosinstall/knowrob-base.rosinstall
-# still fetching knowrob from master branch, 
-# Here clone the ROS dependencies repository manually
-# RUN git clone https://github.com/knowrob/rosprolog.git -b master
-# RUN git clone https://github.com/code-iai/iai_common_msgs.git -b master
 RUN git clone https://github.com/knowrob/knowrob.git -b dev
 WORKDIR ${ROS_WS}/src/knowrob
-RUN source ${ROS_WS}/devel/setup.bash && \
-    mkdir build && \
-    cd build && \
-    cmake .. && \
-    make
+RUN source ${ROS_WS}/devel/setup.bash
 RUN pip install pyros-genmsg
 USER root
-RUN cd build && make install
 USER ${NB_USER}
 RUN echo "source ${HOME}/knowrob/build/devel/setup.bash" >> ${HOME}/.bashrc
 
@@ -99,17 +75,6 @@ RUN rosdep update && \
 USER ${NB_USER}
 WORKDIR ${ROS_WS}
 RUN catkin build -j 4
-
-# Download the example neem data
-# USER root
-# RUN mkdir /neem_data && chown ${NB_USER}:users /neem_data
-# USER ${NB_USER}
-# RUN cd /neem_data && \
-#     wget https://seafile.zfn.uni-bremen.de/f/b66a71b257084d459b6c/?dl=1 -O example_neem.zip && \
-#     unzip example_neem.zip && \
-#     mv example_neem/* ./ && \
-#     rm -r example_neem example_neem.zip
-#===========================================================#
 
 # Copy content to the image
 USER ${NB_USER}
