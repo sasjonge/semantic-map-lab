@@ -73,7 +73,7 @@ WORKDIR ${ROS_WS}/src
 # Here clone the ROS dependencies repository manually
 # RUN git clone https://github.com/knowrob/rosprolog.git -b master
 # RUN git clone https://github.com/code-iai/iai_common_msgs.git -b master
-RUN git clone https://github.com/knowrob/knowrob.git -b dev
+RUN git clone https://github.com/sasjonge/knowrob.git -b settings_as_dict
 WORKDIR ${ROS_WS}/src/knowrob
 RUN source ${ROS_WS}/devel/setup.bash && \
     mkdir build && \
