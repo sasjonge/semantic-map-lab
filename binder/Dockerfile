@@ -57,7 +57,7 @@ WORKDIR ${ROS_WS}/src
 RUN git clone https://github.com/knowrob/knowrob.git -b dev
 WORKDIR ${ROS_WS}/src/knowrob
 RUN git fetch && \
-git checkout a72220b21944a506f4b09b69be3cd23c216334ef
+git checkout 59ea2d85b44560812f813690159abbd72e17cffb
 RUN source ${ROS_WS}/devel/setup.bash
 RUN pip install pyros-genmsg
 USER root
