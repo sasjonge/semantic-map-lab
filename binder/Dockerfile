@@ -1,6 +1,8 @@
 # Dockerfile of the base image: https://github.com/IntEL4CoRo/docker-stacks/blob/remote-desktop/Dockerfile
 FROM intel4coro/base-notebook:20.04-noetic-vnc
 
+RUN echo "clean cache please"
+
 # Path to the default ROS workspace
 ENV ROS_WS=${HOME}/workspace/ros
 
@@ -57,7 +59,7 @@ WORKDIR ${ROS_WS}/src
 RUN git clone https://github.com/knowrob/knowrob.git -b dev
 WORKDIR ${ROS_WS}/src/knowrob
 RUN git fetch && \
-git checkout 3e17437a50ead5c408d3950e5558e905d08260be
+git checkout c12825dfb7c99c6837d9d1c5cced400459855dad
 RUN source ${ROS_WS}/devel/setup.bash
 RUN pip install pyros-genmsg
 USER root
