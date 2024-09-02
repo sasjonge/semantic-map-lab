@@ -89,8 +89,9 @@ RUN ln -s ${ROS_WS} ${PWD}/ROS_WS
 # RUN ln -s /neem_data ${PWD}/neem_data
 RUN ln -s ${ROS_WS}/src/knowrob ${HOME}/knowrob
 
-# Copy reasoner to knowrob home path
-COPY --chown=${NB_USER}:users dfl_reasoner.py ${HOME}/.knowrob
+# Copy reasoner and owl file knowrob home path
+COPY --chown=${NB_USER}:users reasoner ${HOME}/.knowrob
+COPY --chown=${NB_USER}:users owl ${HOME}/.knowrob
 
 # The entrypoint of the docker image
 COPY --chown=${NB_USER}:users binder/entrypoint.sh /entrypoint.sh

@@ -1,0 +1,2938 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl"
+         xmlns="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl#"
+         xmlns:DUL="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+         xmlns:USD="https://ease-crc.org/ont/USD.owl#">
+
+<owl:Ontology rdf:about="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl">
+  <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
+</owl:Ontology>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#house_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bedroom_4"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bathroom_5"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Kitchen_6"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#LivingRoom_7"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bed_4_0_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Pillow_4_0_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#BasketBall_4_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CellPhone_4_12"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Box_4_15"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Dresser_4_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#TissueBox_4_6"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Mug_4_14"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#AlarmClock_4_16"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#KeyChain_4_19"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#DiningTable_4_2_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Laptop_4_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Pen_4_10"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CellPhone_4_11"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Watch_4_17"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Vase_4_20"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Chair_4_2_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Desk_4_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bowl_4_5"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CD_4_7"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#BaseballBat_4_8"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#DeskLamp_4_9"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#KeyChain_4_18"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Pen_4_21"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bed_4_4"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CellPhone_4_2"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CellPhone_4_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CellPhone_4_4"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Box_4_13"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Toilet_5_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SprayBottle_5_22"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#ToiletPaper_5_23"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Sink_5_1_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Faucet_5_1_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#GarbageCan_5_2"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Plunger_5_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CounterTop_6_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SprayBottle_6_24"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Pot_6_29"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Fork_6_30"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Egg_6_32"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Pen_6_33"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#PepperShaker_6_35"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SoapBottle_6_37"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bread_6_38"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SaltShaker_6_39"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Lettuce_6_40"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Tomato_6_42"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Potato_6_45"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Plate_6_46"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#DiningTable_6_1_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#CreditCard_6_25"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Potato_6_26"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bread_6_28"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bowl_6_31"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bottle_6_34"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Vase_6_36"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Statue_6_43"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Chair_6_1_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Fridge_6_2"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Lettuce_6_44"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#ShelvingUnit_6_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Statue_6_27"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Apple_6_41"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Safe_6_4"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#GarbageBag_6_5"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#DiningTable_7_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Box_7_47"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Box_7_48"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Bowl_7_49"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#KeyChain_7_50"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Statue_7_51"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Watch_7_52"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Plate_7_53"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Book_7_54"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Sofa_7_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#HousePlant_7_2_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#DogBed_7_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Television_7_4"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Television_6_6"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Door_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Door_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Door_2"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Door_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_2"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_3"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_4"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_5"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_6"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_7"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_9"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_10"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_11"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_12"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_15"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_16"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_17"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_18"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_21"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_22"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_23"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bedroom_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bathroom_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Kitchen_6">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Kitchen"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#LivingRoom_7">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bed_4_0_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_0_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_0_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bed_4_0_0_Bed_5"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_0_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_0_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.047624652862549, -4.660642883300783, 0.4218328893184662, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bed_4_0_0_Bed_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Pillow_4_0_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pillow_4_0_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pillow_4_0_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Pillow_4_0_1_Pillow_8"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pillow_4_0_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pillow_4_0_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.9148530189991, -4.660642883300783, 0.9668126851320267, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Pillow_4_0_1_Pillow_8">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#BasketBall_4_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BasketBall_4_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BasketBall_4_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_BasketBall_4_0_Basketball_1_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BasketBall_4_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BasketBall_4_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.59389877319336, -4.411074161529541, 0.8993483781814575, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_BasketBall_4_0_Basketball_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CellPhone_4_12">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_12_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_12_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_12_Cellphone_8_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_12_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_12_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [8.771522521972656, -4.786177635192871, 0.8347892045974732, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_12_Cellphone_8_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Box_4_15">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Box"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_15_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_15_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Box_4_15_Box_22"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_15_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_15_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.220446049250313e-16, 1.0000000000000002, 0.0, 0.0], [-1.0000000000000002, 2.220446049250313e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.22469711303711, -4.4151930809021, 0.950204074382782, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Box_4_15_Box_22">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Dresser_4_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Dresser_4_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Dresser_4_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Dresser_4_1_Dresser_218__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Dresser_4_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Dresser_4_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.951704328536987, -6.633184499076042, 0.4871780574321747, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Dresser_4_1_Dresser_218__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#TissueBox_4_6">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TissueBox_4_6_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TissueBox_4_6_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_TissueBox_4_6_TissueBox_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TissueBox_4_6_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TissueBox_4_6_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.999999999999913, -4.172324587717069e-07, 0.0, 0.0], [4.172324587717069e-07, 0.999999999999913, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [10.076704025268555, -6.633184432983398, 1.0543690919876099, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_TissueBox_4_6_TissueBox_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Mug_4_14">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Mug_4_14_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Mug_4_14_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Mug_4_14_Mug_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Mug_4_14_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Mug_4_14_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.999999999999913, -4.172324587717069e-07, 0.0, 0.0], [4.172324587717069e-07, 0.999999999999913, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.890691757202148, -6.498328685760498, 0.6369427919387818, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Mug_4_14_Mug_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#AlarmClock_4_16">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#AlarmClock_4_16_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#AlarmClock_4_16_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_AlarmClock_4_16_AlarmClock_11"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#AlarmClock_4_16_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#AlarmClock_4_16_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.999999999999913, -4.172324587717069e-07, 0.0, 0.0], [4.172324587717069e-07, 0.999999999999913, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.870321273803711, -7.099126815795898, 0.6315320730209351, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_AlarmClock_4_16_AlarmClock_11">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#KeyChain_4_19">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_19_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_19_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_KeyChain_4_19_Keychain_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_19_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_19_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.999999999999913, -4.172324587717069e-07, 0.0, 0.0], [4.172324587717069e-07, 0.999999999999913, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.881895065307617, -5.978810787200928, 0.10901457071304321, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_KeyChain_4_19_Keychain_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#DiningTable_4_2_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_4_2_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_4_2_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_DiningTable_4_2_0_DiningTable_221__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_4_2_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_4_2_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.15133626573674, -7.719194910402388, 0.3910415768623352, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_DiningTable_4_2_0_DiningTable_221__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Laptop_4_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Laptop_4_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Laptop_4_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Laptop_4_1_Laptop_11"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Laptop_4_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Laptop_4_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.039062023162842, -7.7191948890686035, 0.8484976768493653, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Laptop_4_1_Laptop_11">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Pen_4_10">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_10_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_10_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Pen_4_10_Pen_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_10_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_10_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.144855976104736, -7.497288703918457, 0.7899245619773865, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Pen_4_10_Pen_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CellPhone_4_11">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_11_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_11_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_11_Cellphone_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_11_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_11_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.249701023101807, -8.163165092468262, 0.8390718579292298, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_11_Cellphone_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Watch_4_17">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_4_17_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_4_17_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Watch_4_17_Watch_1_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_4_17_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_4_17_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.349997043609619, -8.385347366333008, 0.8026355504989624, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Watch_4_17_Watch_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Vase_4_20">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_4_20_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_4_20_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Vase_4_20_VaseTall_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_4_20_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_4_20_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.052982330322266, -8.38491439819336, 0.9844235062599183, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Vase_4_20_VaseTall_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Chair_4_2_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_4_2_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_4_2_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Chair_4_2_1_Chair_007__2_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_4_2_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_4_2_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.2528135104707452, -0.9675150277507106, 0.0, 0.0], [0.9675150277507106, 0.2528135104707452, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.646231998139541, -7.719194910402388, 0.5216506719589233, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Chair_4_2_1_Chair_007__2_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Desk_4_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Desk_4_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Desk_4_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Desk_4_3_Desk_323__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Desk_4_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Desk_4_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.939844285726547, -8.171271049276939, 0.45052170753479004, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Desk_4_3_Desk_323__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bowl_4_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Bowl"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_4_5_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_4_5_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bowl_4_5_Bowl_14"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_4_5_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_4_5_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.936829566955566, -7.650998592376709, 1.0096701860427857, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bowl_4_5_Bowl_14">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CD_4_7">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CD_4_7_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CD_4_7_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CD_4_7_Cd_1_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CD_4_7_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CD_4_7_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.927726745605469, -7.5876054763793945, 0.09248794615268707, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CD_4_7_Cd_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#BaseballBat_4_8">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BaseballBat_4_8_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BaseballBat_4_8_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_BaseballBat_4_8_Baseballbat_1_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BaseballBat_4_8_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BaseballBat_4_8_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.1670276878825505, 0.9850626049146355, -0.04187380899084822, 0.0], [-0.8846834282352941, 0.16848512592877773, 0.43468148585672617, 0.0], [0.4352435907471316, -0.03555877865670712, 0.8996102433687528, 0.0], [10.0803861618042, -8.006690979003906, 1.374858021736145, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_BaseballBat_4_8_Baseballbat_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#DeskLamp_4_9">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DeskLamp_4_9_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DeskLamp_4_9_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_DeskLamp_4_9_RobothorDeskLampArstidV"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DeskLamp_4_9_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DeskLamp_4_9_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.938726425170898, -8.68602180480957, 1.1787354946136475, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_DeskLamp_4_9_RobothorDeskLampArstidV">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#KeyChain_4_18">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_18_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_18_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_KeyChain_4_18_Keychain_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_18_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_4_18_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.934883117675781, -7.780810832977295, 0.09815701842308044, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_KeyChain_4_18_Keychain_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Pen_4_21">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_21_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_21_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Pen_4_21_Pen_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_21_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_4_21_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.7747163772583, -7.821147918701172, 0.6589845418930054, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Pen_4_21_Pen_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bed_4_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_4_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_4_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bed_4_4_RobothorBedKritter"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_4_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bed_4_4_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.392420237541199, -9.35365032581044, 0.33533501625061035, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bed_4_4_RobothorBedKritter">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CellPhone_4_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_2_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_2_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_2_Cellphone_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_2_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_2_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.989384651184082, -9.174137115478516, 0.4452557146549225, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_2_Cellphone_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CellPhone_4_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_3_Cellphone_7_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.600540161132812, -9.173980712890625, 0.44635127782821654, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_3_Cellphone_7_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CellPhone_4_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_4_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_4_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_4_Cellphone_8_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_4_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CellPhone_4_4_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [8.822874069213867, -9.086786270141602, 0.4444452702999115, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CellPhone_4_4_Cellphone_8_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Box_4_13">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Box"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_13_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_13_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Box_4_13_Box_17"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_13_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_4_13_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-1.0, 1.2246467991473532e-16, 0.0, 0.0], [-1.2246467991473532e-16, -1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.405828475952148, -9.400230407714844, 0.5259987711906433, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Box_4_13_Box_17">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Toilet_5_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Toilet_5_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Toilet_5_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Toilet_5_0_Toilet_1_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Toilet_5_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Toilet_5_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.731566374778748, -12.00125795340538, 0.5189565420150757, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Toilet_5_0_Toilet_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SprayBottle_5_22">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_5_22_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_5_22_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_SprayBottle_5_22_SprayBottle_8"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_5_22_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_5_22_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.663161089322408e-06, -0.9999999999964541, 0.0, 0.0], [0.9999999999964541, 2.663161089322408e-06, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [10.1259183883667, -12.00454330444336, 1.1672528982162476, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_SprayBottle_5_22_SprayBottle_8">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#ToiletPaper_5_23">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ToiletPaper_5_23_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ToiletPaper_5_23_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ToiletPaper_5_23_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ToiletPaper_5_23_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.663161089322408e-06, -0.9999999999964541, 0.0, 0.0], [0.9999999999964541, 2.663161089322408e-06, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [10.00727367401123, -12.00454330444336, 1.1051270961761475, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Sink_5_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Sink"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sink_5_1_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sink_5_1_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Sink_5_1_0_Sink_26"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sink_5_1_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sink_5_1_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.800541972398758, -10.589171402931214, 0.4927992820739746, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Sink_5_1_0_Sink_26">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Faucet_5_1_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Faucet_5_1_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Faucet_5_1_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Faucet_5_1_1_BathroomFaucet_30"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Faucet_5_1_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Faucet_5_1_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [9.800541972398758, -10.403897805094719, 1.1324992626905441, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Faucet_5_1_1_BathroomFaucet_30">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#GarbageCan_5_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageCan_5_2_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageCan_5_2_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_GarbageCan_5_2_Bin_7"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageCan_5_2_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageCan_5_2_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-1.0, 1.2246467991473532e-16, 0.0, 0.0], [-1.2246467991473532e-16, -1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [6.371817078351974, -12.115832937121391, 0.27942752838134766, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_GarbageCan_5_2_Bin_7">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Plunger_5_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plunger_5_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plunger_5_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Plunger_5_3_Plunger_3_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plunger_5_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plunger_5_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-1.0, 1.2246467991473532e-16, 0.0, 0.0], [-1.2246467991473532e-16, -1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [8.20927597779848, -12.191996780395508, 0.2696691155433655, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Plunger_5_3_Plunger_3_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CounterTop_6_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Countertop"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CounterTop_6_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CounterTop_6_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CounterTop_6_0_CountertopIsland_6_X_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CounterTop_6_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CounterTop_6_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.660673417806626, -8.306245092015665, 0.47099846601486206, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CounterTop_6_0_CountertopIsland_6_X_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SprayBottle_6_24">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_6_24_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_6_24_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_SprayBottle_6_24_SprayBottle_6"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_6_24_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SprayBottle_6_24_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.769168376922607, -8.307136535644531, 1.0678215026855469, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_SprayBottle_6_24_SprayBottle_6">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Pot_6_29">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Pot"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pot_6_29_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pot_6_29_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Pot_6_29_Pot_11"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pot_6_29_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pot_6_29_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.655695915222168, -7.622802734375, 1.0302165746688843, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Pot_6_29_Pot_11">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Fork_6_30">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Fork"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fork_6_30_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fork_6_30_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Fork_6_30_RobothorForkAi_2_V"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fork_6_30_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fork_6_30_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [6.000865936279297, -8.535414695739746, 0.9595644474029541, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Fork_6_30_RobothorForkAi_2_V">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Egg_6_32">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Egg_6_32_Egg_5"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.88685941696167, -7.85058069229126, 1.0349820137023926, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Egg_6_32_Egg_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Pen_6_33">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_6_33_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_6_33_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Pen_6_33_Pen_4"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_6_33_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pen_6_33_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.538767337799072, -7.85058069229126, 0.9496804475784302, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Pen_6_33_Pen_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#PepperShaker_6_35">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#PepperShaker"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PepperShaker_6_35_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PepperShaker_6_35_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_PepperShaker_6_35_RobothorSaltPepperShakerBnydPepperV"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PepperShaker_6_35_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PepperShaker_6_35_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [6.000866413116455, -7.622303009033203, 0.9949444532394409, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_PepperShaker_6_35_RobothorSaltPepperShakerBnydPepperV">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SoapBottle_6_37">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SoapBottle_6_37_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SoapBottle_6_37_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_SoapBottle_6_37_SoapBottle_22"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SoapBottle_6_37_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SoapBottle_6_37_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.317438125610352, -8.30683708190918, 1.0580670833587646, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_SoapBottle_6_37_SoapBottle_22">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bread_6_38">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Bread"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_38_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_38_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bread_6_38_Bread_22"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_38_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_38_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.4299421310424805, -8.538498878479004, 0.9928193092346191, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bread_6_38_Bread_22">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SaltShaker_6_39">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#SaltShaker"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SaltShaker_6_39_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SaltShaker_6_39_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SaltShaker_6_39_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SaltShaker_6_39_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.314550399780273, -7.622303009033203, 1.0455048084259033, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Lettuce_6_40">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_40_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_40_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Lettuce_6_40_Lettuce_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_40_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_40_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.318835258483887, -8.99197006225586, 1.016141653060913, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Lettuce_6_40_Lettuce_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Tomato_6_42">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Tomato_6_42_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Tomato_6_42_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Tomato_6_42_Tomato_20"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Tomato_6_42_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Tomato_6_42_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.773056983947754, -7.851492404937744, 1.0001816749572754, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Tomato_6_42_Tomato_20">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Potato_6_45">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_45_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_45_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Potato_6_45_Potato_23"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_45_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_45_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.9993720054626465, -7.850039958953857, 0.9779562950134277, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Potato_6_45_Potato_23">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Plate_6_46">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Plate"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_6_46_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_6_46_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Plate_6_46_Plate_27"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_6_46_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_6_46_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.773056983947754, -8.079108238220215, 1.0008429765701294, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Plate_6_46_Plate_27">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#DiningTable_6_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_6_1_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_6_1_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_DiningTable_6_1_0_DiningTable_227__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_6_1_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_6_1_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.413272955628644, -7.913446684636131, 0.3163648247718811, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_DiningTable_6_1_0_DiningTable_227__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#CreditCard_6_25">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CreditCard_6_25_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CreditCard_6_25_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_CreditCard_6_25_Creditcard_1_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CreditCard_6_25_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CreditCard_6_25_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.659087896347046, -6.860223770141602, 0.639975368976593, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_CreditCard_6_25_Creditcard_1_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Potato_6_26">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_26_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_26_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Potato_6_26_Potato_21"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_26_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Potato_6_26_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.7824034690856934, -7.209803581237793, 0.6745222806930542, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Potato_6_26_Potato_21">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bread_6_28">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Bread"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_28_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_28_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bread_6_28_Bread_5"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_28_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bread_6_28_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.536180019378662, -7.56237268447876, 0.7155592441558838, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bread_6_28_Bread_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bowl_6_31">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Bowl"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_6_31_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_6_31_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bowl_6_31_Bowl_27"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_6_31_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_6_31_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.7819955348968506, -8.264521598815918, 0.7276504516601563, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bowl_6_31_Bowl_27">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bottle_6_34">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Bottle"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bottle_6_34_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bottle_6_34_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bottle_6_34_Bottle_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bottle_6_34_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bottle_6_34_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.4132728576660156, -6.860223770141602, 0.8144872665405274, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bottle_6_34_Bottle_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Vase_6_36">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_6_36_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_6_36_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Vase_6_36_VaseMedium_4"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_6_36_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Vase_6_36_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.1674580574035645, -8.264521598815918, 0.7784766435623169, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Vase_6_36_VaseMedium_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Statue_6_43">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_43_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_43_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Statue_6_43_TowelStatue_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_43_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_43_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999999645, -2.663161090429198e-07, 0.0, 0.0], [2.663161090429198e-07, -0.9999999999999645, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.7819955348968506, -8.966670036315918, 0.8938956737518311, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Statue_6_43_TowelStatue_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Chair_6_1_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_6_1_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_6_1_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Chair_6_1_1_Chair_303__2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_6_1_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Chair_6_1_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.11751694116741263, -0.9930708779028087, 0.0, 0.0], [0.9930708779028087, 0.11751694116741263, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [4.0132761146748175, -7.913446684636131, 0.41711342334747314, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Chair_6_1_1_Chair_303__2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Fridge_6_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Refrigerator"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fridge_6_2_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fridge_6_2_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Fridge_6_2_Fridge_6"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fridge_6_2_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Fridge_6_2_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.759720095157624, -10.548475056789883, 0.9009696841239929, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Fridge_6_2_Fridge_6">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Lettuce_6_44">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_44_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_44_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Lettuce_6_44_Lettuce_11"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_44_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Lettuce_6_44_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.220446049250313e-16, 1.0000000000000002, 0.0, 0.0], [-1.0000000000000002, 2.220446049250313e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [5.848402500152588, -10.285740852355957, 1.1764768362045288, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Lettuce_6_44_Lettuce_11">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#ShelvingUnit_6_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ShelvingUnit_6_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ShelvingUnit_6_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_ShelvingUnit_6_3_ShelvingUnit_215__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ShelvingUnit_6_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ShelvingUnit_6_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.220446049250313e-16, 1.0000000000000002, 0.0, 0.0], [-1.0000000000000002, 2.220446049250313e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [2.336501001358032, -10.739094786030847, 0.6429924964904785, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_ShelvingUnit_6_3_ShelvingUnit_215__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Statue_6_27">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_27_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_27_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Statue_6_27_StoneStatue_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_27_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_6_27_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999948934, 3.1957933083253193e-06, 0.0, 0.0], [-3.1957933083253193e-06, -0.9999999999948934, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [2.47556734085083, -11.42208480834961, 1.6322269916534424, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Statue_6_27_StoneStatue_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Apple_6_41">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Apple_6_41_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Apple_6_41_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Apple_6_41_Apple_19"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Apple_6_41_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Apple_6_41_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-0.9999999999948934, 3.1957933083253193e-06, 0.0, 0.0], [-3.1957933083253193e-06, -0.9999999999948934, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [2.334764242172241, -10.751228332519531, 0.5060005187988281, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Apple_6_41_Apple_19">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Safe_6_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Safe_6_4_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Safe_6_4_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Safe_6_4_Safe_18__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Safe_6_4_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Safe_6_4_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.220446049250313e-16, 1.0000000000000002, 0.0, 0.0], [-1.0000000000000002, 2.220446049250313e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.3063594937324524, -7.920029461622239, 0.2526496648788452, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Safe_6_4_Safe_18__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#GarbageBag_6_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageBag_6_5_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageBag_6_5_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageBag_6_5_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#GarbageBag_6_5_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [4.545891299627567, -10.357987748857946, 0.2789691686630249, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#DiningTable_7_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_7_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_7_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_DiningTable_7_0_RobothorDiningTableNordenGateleg"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_7_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_7_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.6489672393798833, -2.835307418346405, 0.37110382318496704, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_DiningTable_7_0_RobothorDiningTableNordenGateleg">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Box_7_47">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Box"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_47_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_47_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Box_7_47_Box_22"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_47_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_47_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.8548836708068848, -3.3102617263793945, 0.9175465106964111, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Box_7_47_Box_22">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Box_7_48">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Box"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_48_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_48_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Box_7_48_Box_28"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_48_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Box_7_48_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.220446049250313e-16, 1.0000000000000002, 0.0, 0.0], [-1.0000000000000002, 2.220446049250313e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.8809173107147217, -2.4560160636901855, 0.8802371025085449, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Box_7_48_Box_28">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Bowl_7_49">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Bowl"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_7_49_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_7_49_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Bowl_7_49_Bowl_20"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_7_49_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Bowl_7_49_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.648970603942871, -2.265275239944458, 0.8393172502517701, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Bowl_7_49_Bowl_20">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#KeyChain_7_50">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_7_50_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_7_50_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_KeyChain_7_50_Keychain_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_7_50_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#KeyChain_7_50_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.536381244659424, -2.8022894859313965, 0.7507120370864868, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_KeyChain_7_50_Keychain_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Statue_7_51">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_7_51_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_7_51_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Statue_7_51_FertilityStatue_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_7_51_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Statue_7_51_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.4389383792877197, -2.4552860260009766, 0.9672611832618714, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Statue_7_51_FertilityStatue_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Watch_7_52">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_7_52_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_7_52_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Watch_7_52_Watch_2_0"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_7_52_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Watch_7_52_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.8609557151794434, -2.265706777572632, 0.7655638456344604, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Watch_7_52_Watch_2_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Plate_7_53">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Plate"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_7_53_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_7_53_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Plate_7_53_Plate_10"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_7_53_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plate_7_53_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.334524154663086, -3.4053421020507812, 0.808542537689209, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Plate_7_53_Plate_10">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Book_7_54">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Book_7_54_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Book_7_54_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Book_7_54_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Book_7_54_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.648970603942871, -2.645148992538452, 0.7621740102767944, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Sofa_7_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Sofa"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sofa_7_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sofa_7_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Sofa_7_1_Sofa_223__3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sofa_7_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Sofa_7_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [1.6253445854187012, -1.274500036239624, 0.4522804021835327, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Sofa_7_1_Sofa_223__3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#HousePlant_7_2_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#HousePlant_7_2_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#HousePlant_7_2_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_HousePlant_7_2_0_Houseplant_7"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#HousePlant_7_2_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#HousePlant_7_2_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[0.6379984626244586, 0.7700376365404663, 0.0, 0.0], [-0.7700376365404663, 0.6379984626244586, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.3268324246844643, -4.694101980111831, 0.4274352192878723, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_HousePlant_7_2_0_Houseplant_7">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#DogBed_7_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DogBed_7_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DogBed_7_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_DogBed_7_3_DogBed_2__1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DogBed_7_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DogBed_7_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.6351466304752176, -4.897150522268739, 0.15797579288482666, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_DogBed_7_3_DogBed_2__1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Television_7_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_7_4_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_7_4_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Television_7_4_Television_14"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_7_4_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_7_4_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-1.0, 1.2246467991473532e-16, 0.0, 0.0], [-1.2246467991473532e-16, -1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.7558630909706806, -6.05662519967556, 1.3735308129716952, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Television_7_4_Television_14">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Television_6_6">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_6_6_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_6_6_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#SM_Television_6_6_Television_14"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_6_6_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Television_6_6_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[-4.440892098500626e-16, -1.0000000000000002, 0.0, 0.0], [1.0000000000000002, -4.440892098500626e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [6.05662519967556, -9.337425561726494, 1.8416552402086888, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#SM_Television_6_6_Television_14">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Door_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [7.524557767429259, -10.243, 1.049698829650879, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Door_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.2950293919020526, -6.146, 1.0496984720230103, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Door_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_2_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_2_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_2_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_2_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[2.220446049250313e-16, 1.0, 0.0, 0.0], [-1.0, 2.220446049250313e-16, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [6.146, -5.103744058795436, 1.0524564981460571, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Door_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Door_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [3.556320171775609, -12.291, 1.049698829650879, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_0_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_0_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_0_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_0_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_0_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_0_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_0_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_0_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_0_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_0_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_1_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_1_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_1"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_1_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_1_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_2_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_2_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_2_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_2_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_2_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_2_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_2_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_2_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_2_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_2_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_3">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_3_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_3_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_3"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_3_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_3_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_4">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_4_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_4_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_4"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_4_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_4_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_5">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_5_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_5_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_5"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_5_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_5_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_6">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_6_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_6_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_6"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_6_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_6_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_7">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_7_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_7_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_7"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_7_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_7_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_9">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_9_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_9_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_9"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_9_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_9_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_10">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_10_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_10_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_10"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_10_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_10_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_11">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_11_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_11_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_11"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_11_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_11_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_12">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_12_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_12_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_12_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_12_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_12_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_12_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_12_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_12_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_12_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_12_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_15">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_15_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_15_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_15_0"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_15_1"/>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_15_2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_15_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_15_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_15_0">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_15_1">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_15_2">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_16">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_16_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_16_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_16"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_16_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_16_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_17">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_17_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_17_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_17"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_17_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_17_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_18">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_18_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_18_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_18"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_18_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_18_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_21">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_21_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_21_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_21"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_21_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_21_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_22">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_22_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_22_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_22"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_22_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_22_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Wall_23">
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_23_xformOpOrder"/>
+  <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_23_xformOp_transform"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="https://ease-crc.org/ont/USD.owl#hasTypedSchema"/>
+      <owl:someValuesFrom rdf:resource="https://ease-crc.org/ont/USD.owl#XformSchema"/>
+    </owl:Restriction>
+  </rdf:type>
+  <DUL:hasPart rdf:resource="https://ease-crc.org/ont/USD.owl#Wall_23"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_23_xformOpOrder">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOpOrder rdf:datatype="https://ease-crc.org/ont/USD.owl#token_array">[xformOp:transform]</USD:xformOpOrder>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Wall_23_xformOp_transform">
+  <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  <USD:xformOp_transform rdf:datatype="https://ease-crc.org/ont/USD.owl#matrix4d">[[1.0, 0.0, 0.0, 0.0], [0.0, 2.220446049250313e-16, 0.9999999999999998, 0.0], [0.0, -0.9999999999999998, 2.220446049250313e-16, 0.0], [0.0, 0.0, 0.0, 1.0]]</USD:xformOp_transform>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>
