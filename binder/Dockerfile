@@ -1,6 +1,8 @@
 # Dockerfile of the base image: https://github.com/IntEL4CoRo/docker-stacks/blob/remote-desktop/Dockerfile
 FROM intel4coro/base-notebook:20.04-noetic-vnc
 
+RUN echo "remove cache please"
+
 # Path to the default ROS workspace
 ENV ROS_WS=${HOME}/workspace/ros
 
@@ -88,6 +90,9 @@ COPY --chown=${NB_USER}:users . ${REPO_DIR}/
 RUN ln -s ${ROS_WS} ${PWD}/ROS_WS
 # RUN ln -s /neem_data ${PWD}/neem_data
 RUN ln -s ${ROS_WS}/src/knowrob ${HOME}/knowrob
+
+# Copy reasoner to knowrob home path
+COPY --chown=${NB_USER}:users dfl_reasoner.py ${HOME}/.knowrob
 
 # The entrypoint of the docker image
 COPY --chown=${NB_USER}:users binder/entrypoint.sh /entrypoint.sh
