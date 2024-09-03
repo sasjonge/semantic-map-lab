@@ -91,6 +91,14 @@ RUN ln -s ${ROS_WS} ${PWD}/ROS_WS
 # RUN ln -s /neem_data ${PWD}/neem_data
 RUN ln -s ${ROS_WS}/src/knowrob ${HOME}/knowrob
 
+# TODO: Install konclude
+
+# Install SOMA DFL reasoner library
+WORKDIR ${HOME}
+RUN git clone git@github.com:ease-crc/ease_lexical_resources.git -b dev
+WORKDIR ${HOME}/ease_lexical_resources/src
+RUN pip install -e .
+
 # Copy reasoner and owl file knowrob home path
 COPY --chown=${NB_USER}:users reasoner ${HOME}/.knowrob/reasoner
 COPY --chown=${NB_USER}:users owl ${HOME}/.knowrob/owl
