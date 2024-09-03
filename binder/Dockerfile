@@ -95,7 +95,7 @@ RUN ln -s ${ROS_WS}/src/knowrob ${HOME}/knowrob
 
 # Install SOMA DFL reasoner library
 WORKDIR ${HOME}
-RUN git clone git@github.com:ease-crc/ease_lexical_resources.git -b dev
+RUN git clone https://github.com/ease-crc/ease_lexical_resources.git
 WORKDIR ${HOME}/ease_lexical_resources/src
 RUN pip install -e .
 
