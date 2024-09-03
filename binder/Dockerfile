@@ -98,6 +98,7 @@ WORKDIR ${HOME}
 RUN git clone https://github.com/ease-crc/ease_lexical_resources.git
 WORKDIR ${HOME}/ease_lexical_resources/src
 RUN pip install -e .
+WORKDIR ${REPO_DIR}
 
 # Copy reasoner and owl file knowrob home path
 COPY --chown=${NB_USER}:users reasoner ${HOME}/.knowrob/reasoner
