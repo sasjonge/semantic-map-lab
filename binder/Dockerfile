@@ -91,10 +91,14 @@ RUN ln -s ${ROS_WS} ${PWD}/ROS_WS
 # RUN ln -s /neem_data ${PWD}/neem_data
 RUN ln -s ${ROS_WS}/src/knowrob ${HOME}/knowrob
 
+# install knowrob kernel
+RUN pip install git+https://github.com/sasjonge/knowrob_kernel.git
+
 # TODO: Install konclude
 
 # Install SOMA DFL reasoner library
 WORKDIR ${HOME}
+RUN pip install inflection
 RUN git clone https://github.com/ease-crc/ease_lexical_resources.git
 WORKDIR ${HOME}/ease_lexical_resources/src
 RUN pip install -e .
