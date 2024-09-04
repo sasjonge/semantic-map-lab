@@ -1,0 +1,30 @@
+{
+    "logging": {
+        "console-sink": {"level": "debug"},
+        "file-sink": {"level": "debug"}
+    },
+    "semantic-web": {
+        "prefixes": [
+            {"alias": "USD", "uri": "https://ease-crc.org/ont/USD.owl"}
+        ]
+    },
+    "data-sources": [
+        {"path": "owl/USD.owl", "format": "rdf-xml"},
+        {"path": "owl/house_4.owl", "format": "rdf-xml"}
+    ],
+    "data-backends": [
+        {
+          "type": "Redland",
+          "name": "redland",
+          "read-only": false
+        }
+    ],  
+    "reasoner": [
+        {
+          "type": "DummyReasoner",
+          "name": "DummyReasoner",
+          "module": "reasoner/dfl_reasoner.py",
+          "data-backend": "redland"
+        }
+    ]
+}

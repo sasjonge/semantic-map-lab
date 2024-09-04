@@ -107,6 +107,7 @@ WORKDIR ${REPO_DIR}
 # Copy reasoner and owl file knowrob home path
 COPY --chown=${NB_USER}:users reasoner ${HOME}/.knowrob/reasoner
 COPY --chown=${NB_USER}:users owl ${HOME}/.knowrob/owl
+COPY --chown=${NB_USER}:users settings ${HOME}/.knowrob/settings
 
 # The entrypoint of the docker image
 COPY --chown=${NB_USER}:users binder/entrypoint.sh /entrypoint.sh
