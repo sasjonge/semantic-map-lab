@@ -94,7 +94,10 @@ RUN ln -s ${ROS_WS}/src/knowrob ${HOME}/knowrob
 # install knowrob kernel
 RUN pip install git+https://github.com/sasjonge/knowrob_kernel.git
 
-# TODO: Install konclude
+# Install konclude
+COPY --chown=${NB_USER}:users konclude ${HOME}/konclude
+RUN echo "export PATH=${PATH}:${HOME}/konclude" >> ${HOME}/.bashrc
+RUN echo "export PYTHONPATH=${PATH}:${HOME}/konclude" >> ${HOME}/.bashrc
 
 # Install SOMA DFL reasoner library
 WORKDIR ${HOME}
