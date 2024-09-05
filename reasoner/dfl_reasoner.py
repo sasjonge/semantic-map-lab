@@ -43,15 +43,21 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         if ((False, True) == bounding):
             todo = self._ensureIndividual2Classes(s)
             dispositions = set().union(*[fnOVar(str(c)) for c in todo])
-            _ = [goal.push(Bindings({o: IRIAtom(self.reasoner.expandName(d))})) for d in dispositions]
+            for d in dispositions:
+                bdgs = Bindings()
+                bdgs.set(o, IRIAtom(self.reasoner.expandName(d)))
+                goal.push(bdgs)
         else:
             concepts = [self.reasoner.expandName(c) for c in fnSVar(str(o))]
             instances = set().union(*[self._ensureClass2Individuals(c) for c in concepts])
             if ((True, False) == bounding):
-                logWarn("%s" % str(type(s)))
-                _ = [goal.push(Bindings({s: IRIAtom(self.reasoner.expandName(i))})) for i in instances]
+                # logWarn("%s" % str(type(s)))
+                for i in instances:
+                    bdgs = Bindings()
+                    bdgs.set(s, IRIAtom(self.reasoner.expandName(i)))
+                    goal.push(bdgs)
             elif ((False, False) == bounding) and str(s) in instances:
-                goal.push(Bindings({}))
+                goal.push(Bindings())
         return True
 
     def _ensureIndividual2Classes(self, entity):
@@ -90,7 +96,6 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         # Assume only simple goals for now.
         literal = goal.formula().literals()[0].predicate()
         p = _iriOrVariable(self.reasoner, literal.functor())
-        logWarn("%s %s" % (repr(p), str(self.simpleGoals)))
         if p in self.simpleGoals:
             s : Term = _iriOrVariable(self.reasoner, literal.arguments()[0])
             o : Term = _iriOrVariable(self.reasoner, literal.arguments()[1])
@@ -121,16 +126,23 @@ class SOMADFLReasoner(GoalDrivenReasoner):
                 classes = set().union(*[self.reasoner.whatObjectsCanToolPerformTaskOn(str(task), c) for c in todo])
                 classes = [self.reasoner.expandName(c) for c in classes]
                 instances = set().union(*[self._ensureClass2Individuals(c) for c in classes])
-                _ = [goal.push(Bindings({patient: IRIAtom(self.reasoner.expandName(i))})) for i in instances]
+                for i in instances:
+                    bdgs = Bindings()
+                    bdgs.set(instrument, IRIAtom(self.reasoner.expandName(i)))
+                    goal.push(bdgs)
+
             else:
                 todo = self._ensureIndividual2Classes(patient)
                 classes = set().union(*[self.reasoner.whatToolsCanPerformTaskOnObject(str(task), c) for c in todo])
                 classes = [self.reasoner.expandName(c) for c in classes]
                 instances = set().union(*[self._ensureClass2Individuals(c) for c in classes])
                 if (True, False) == bounding:
-                    _ = [goal.push(Bindings({instrument: IRIAtom(self.reasoner.expandName(i))})) for i in instances]
+                    for i in instances:
+                        bdgs = Bindings()
+                        bdgs.set(instrument, IRIAtom(self.reasoner.expandName(i)))
+                        goal.push(bdgs)
                 elif ((False, False) == bounding) and (str(instrument) in instances):
-                    goal.push(Bindings({}))
+                    goal.push(Bindings())
         return True # False: reasoning error
 
 
