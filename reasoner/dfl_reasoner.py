@@ -18,6 +18,8 @@ class SOMADFLReasoner(GoalReasoner):
         self.hasConstituent = IRIAtom("http://ease-crc.org/ont/SOMA_DFL.owl#hasConstituent")
         self.isConstituentOf = IRIAtom("http://ease-crc.org/ont/SOMA_DFL.owl#isConstituentOf")
         self.useMatch = IRIAtom("http://ease-crc.org/ont/SOMA_DFL.owl#useMatch")
+        self.isInstanceOf = IRIAtom("http://ease-crc.org/ont/SOMA_DFL.owl#isInstanceOf")
+        self.isSubclassOf = IRIAtom("http://ease-crc.org/ont/SOMA_DFL.owl#isSubclassOf")
         self.rdfType = IRIAtom("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
         self.defineRelation(self.hasDisposition)
         self.defineRelation(self.hasPart)
@@ -26,11 +28,15 @@ class SOMADFLReasoner(GoalReasoner):
         self.defineRelation(self.isPartOf)
         self.defineRelation(self.isConstituentOf)
         self.defineRelation(self.useMatch)
-        self.simpleGoals = {self.hasPart, self.hasConstituent, self.hasDisposition, self.isDispositionOf, self.isPartOf, self.isConstituentOf}
+        self.defineRelation(self.isInstanceOf)
+        self.defineRelation(self.isSubclassOf)
+        self.simpleGoals = {self.hasPart, self.hasConstituent, self.hasDisposition, self.isDispositionOf, self.isPartOf, self.isConstituentOf, self.isInstanceOf, self.isSubclassOf}
         self.inverseProperties = {self.isDispositionOf: self.hasDisposition, self.isPartOf: self.hasPart, self.isConstituentOf: self.hasConstituent}
         self.fnMap = {self.hasDisposition: lambda p, s, o, bounding: self._evaluateSimpleGoal(p, s, o, bounding, self.reasoner.whatDispositionsDoesObjectHave, self.reasoner.whatHasDisposition),
                       self.hasPart: lambda p, s, o, bounding: self._evaluateSimpleGoal(p, s, o, bounding, self.reasoner.whatPartTypesDoesObjectHave, self.reasoner.whatHasPartType),
-                      self.hasConstituent: lambda p, s, o, bounding: self._evaluateSimpleGoal(p, s, o, bounding, self.reasoner.whatConstituentsDoesObjectHave, self.reasoner.whatHasConstituent)}
+                      self.hasConstituent: lambda p, s, o, bounding: self._evaluateSimpleGoal(p, s, o, bounding, self.reasoner.whatConstituentsDoesObjectHave, self.reasoner.whatHasConstituent),
+                      self.isSubclassOf: lambda p, s, o, bounding: self._evaluateSimpleGoal(p, s, o, bounding, self.reasoner.whatSuperclasses, self.reasoner.whatSubclasses),
+                      self.isInstanceOf: lambda p, s, o, bounding: self._evaluateSimpleGoal(p, s, o, bounding, self._ensureIndividual2Classes, self._ensureClass2Individuals)}
         self.classes = set()
         
     def _evaluateSimpleGoal(self, p, s, o, bounding, fnOVar, fnSVar):
