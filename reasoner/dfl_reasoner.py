@@ -3,9 +3,16 @@ from knowrob import *
 import dfl.dlquery as dl
 
 def _iriOrVariable(reasoner, x):
+    def _cleanStr(x):
+        for c in ["'", '"']
+            while c == x[0]:
+                x = x[1:]
+                if c == x[-1]:
+                    x = x[:-1]
+        return str(x)
     if x.isVariable():
         return x
-    return IRIAtom(reasoner.expandName(str(x)))
+    return IRIAtom(reasoner.expandName(_cleanStr(x)))
 
 class SOMADFLReasoner(GoalDrivenReasoner):
     def __init__(self):
@@ -35,27 +42,35 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         self.fnMap = {self.hasDisposition: lambda g, p, s, o, bounding: self._evaluateSimpleGoal(g, p, s, o, bounding, self.reasoner.whatDispositionsDoesObjectHave, self.reasoner.whatHasDisposition),
                       self.hasPart: lambda g, p, s, o, bounding: self._evaluateSimpleGoal(g, p, s, o, bounding, self.reasoner.whatPartTypesDoesObjectHave, self.reasoner.whatHasPartType),
                       self.hasConstituent: lambda g, p, s, o, bounding: self._evaluateSimpleGoal(g, p, s, o, bounding, self.reasoner.whatConstituentsDoesObjectHave, self.reasoner.whatHasConstituent),
-                      self.isSubclassOf: lambda g, p, s, o, bounding: self._evaluateSimpleGoal(g, p, s, o, bounding, self.reasoner.whatSuperclasses, self.reasoner.whatSubclasses),
+                      self.isSubclassOf: lambda g, p, s, o, bounding: self._evaluateIsSubclassOf(g, p, s, o, bounding),
                       self.isInstanceOf: lambda g, p, s, o, bounding: self._evaluateSimpleGoal(g, p, s, o, bounding, self._ensureIndividual2Classes, self._ensureClass2Individuals)}
         self.classes = set([self.reasoner.expandName(x) for x in self.reasoner.whatSubclasses('owl:Thing')])
         
+    def _evaluateIsSubclassOf(self, goal, p, s, o, bounding):
+        if ((False, True) == bounding):
+            v = o
+            retq = self.reasoner.whatSuperclasses(self.reasoner.expandName(str(s)))
+        else:
+            v = s
+            retq = self.reasoner.whatSubclasses(self.reasoner.expandName(str(o)))
+        for sc in retq:
+            bdgs = Binding()
+            bdgs.set(v, IRIAtom(self.reasoner.expandName(sc)))
+            goal.push(bdgs)
+        return True
+
     def _evaluateSimpleGoal(self, goal, p, s, o, bounding, fnOVar, fnSVar):
         if ((False, True) == bounding):
             todo = self._ensureIndividual2Classes(s)
-            print('Individual to classes', s, todo)
             dispositions = set().union(*[fnOVar(str(c)) for c in todo])
-            print('Dispositions', dispositions)
             for d in dispositions:
                 bdgs = Bindings()
                 bdgs.set(o, IRIAtom(self.reasoner.expandName(d)))
                 goal.push(bdgs)
         else:
             concepts = [self.reasoner.expandName(c) for c in fnSVar(str(o))]
-            print('Concepts', concepts)
             instances = set().union(*[self._ensureClass2Individuals(c) for c in concepts])
-            print('Instances', instances)
             if ((True, False) == bounding):
-                # logWarn("%s" % str(type(s)))
                 for i in instances:
                     bdgs = Bindings()
                     bdgs.set(s, IRIAtom(self.reasoner.expandName(i)))
@@ -102,26 +117,21 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         # Assume only simple goals for now.
         literal = goal.formula().literals()[0].predicate()
         p = _iriOrVariable(self.reasoner, literal.functor())
-        print('Received predicate ', p)
         if p in self.simpleGoals:
             s : Term = _iriOrVariable(self.reasoner, literal.arguments()[0])
             o : Term = _iriOrVariable(self.reasoner, literal.arguments()[1])
-            print('\t s', s)
-            print('\t o', o)
             logWarn("Checking %s(%s, %s)" % (str(p), str(s), str(o)))
-            bounding = (s.isVariable(), o.isVariable())
             args = [x for x in [s, o] if not x.isVariable()]
-            print('Bounding', bounding)
             if p in self.inverseProperties:
                 p = self.inverseProperties[p]
                 x = s
                 s = o
                 o = x
+            bounding = (s.isVariable(), o.isVariable())
             if (True, True) == bounding:
                 raise ValueError("Must specify at least one of the participants in the %s goal." % str(p))
             self.fnMap[p](goal, p, s, o, bounding)
         else: # useMatch goal
-            print("UM", literal.arguments()[0], str(literal.arguments()[0])[0])
             task : Term = _iriOrVariable(self.reasoner, literal.arguments()[0])
             instrument : Term = _iriOrVariable(self.reasoner, literal.arguments()[1])
             patient : Term = _iriOrVariable(self.reasoner, literal.arguments()[2])
