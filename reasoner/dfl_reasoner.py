@@ -4,7 +4,7 @@ import dfl.dlquery as dl
 
 def _iriOrVariable(reasoner, x):
     def _cleanStr(x):
-        for c in ["'", '"']
+        for c in ["'", '"']:
             while c == x[0]:
                 x = x[1:]
                 if c == x[-1]:
@@ -12,7 +12,7 @@ def _iriOrVariable(reasoner, x):
         return str(x)
     if x.isVariable():
         return x
-    return IRIAtom(reasoner.expandName(_cleanStr(x)))
+    return IRIAtom(reasoner.expandName(_cleanStr(repr(x))))
 
 class SOMADFLReasoner(GoalDrivenReasoner):
     def __init__(self):
