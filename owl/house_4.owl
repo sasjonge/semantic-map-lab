@@ -1252,8 +1252,15 @@
   <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
 </owl:NamedIndividual>
 
+<owl:Class rdf:about="https://ease-crc.org/ont/USD.owl#Egg">
+    <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA_DFL.owl#breakfast_food.n.wn.food"/>
+    <rdfs:comment>A schema that serves as a API for reading and writing related data.</rdfs:comment>
+    <rdfs:label>API schema</rdfs:label>
+</owl:Class>
+
 <owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Egg_6_32">
   <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Egg"/>
   <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOpOrder"/>
   <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOp_transform"/>
   <rdf:type>
