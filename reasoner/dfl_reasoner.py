@@ -33,7 +33,7 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         self.isPartOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isPartOf")
         self.hasConstituent = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#hasConstituent")
         self.isConstituentOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isConstituentOf")
-        self.useMatchAtom = Atom.Tabled("http://www.ease-crc.org/ont/SOMA_DFL.owl#useMatch")
+        self.useMatchAtom = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#useMatch")
         self.useMatch = PredicateIndicator(self.useMatchAtom, 3)
         self.isInstanceOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isInstanceOf")
         self.isSubclassOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isSubclassOf")
