@@ -54,7 +54,7 @@ class SOMADFLReasoner(GoalDrivenReasoner):
             v = s
             retq = self.reasoner.whatSubclasses(self.reasoner.expandName(str(o)))
         for sc in retq:
-            bdgs = Binding()
+            bdgs = Bindings()
             bdgs.set(v, IRIAtom(self.reasoner.expandName(sc)))
             goal.push(bdgs)
         return True
@@ -120,7 +120,6 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         if p in self.simpleGoals:
             s : Term = _iriOrVariable(self.reasoner, literal.arguments()[0])
             o : Term = _iriOrVariable(self.reasoner, literal.arguments()[1])
-            logWarn("Checking %s(%s, %s)" % (str(p), str(s), str(o)))
             args = [x for x in [s, o] if not x.isVariable()]
             if p in self.inverseProperties:
                 p = self.inverseProperties[p]
