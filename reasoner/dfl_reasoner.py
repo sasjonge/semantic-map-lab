@@ -14,6 +14,15 @@ def _iriOrVariable(reasoner, x):
         return x
     return IRIAtom(reasoner.expandName(_cleanStr(repr(x))))
 
+def _addToResults(results, variable, bindings):
+    result = bindings.get(variable)
+    if isinstance(result, Blank):
+        return
+    if isinstance(results, set):
+        results.add(str(result))
+    else:
+        results.append(str(result))
+
 class SOMADFLReasoner(GoalDrivenReasoner):
     def __init__(self):
         super().__init__()
@@ -24,7 +33,8 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         self.isPartOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isPartOf")
         self.hasConstituent = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#hasConstituent")
         self.isConstituentOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isConstituentOf")
-        self.useMatch = PredicateIndicator("http://www.ease-crc.org/ont/SOMA_DFL.owl#useMatch", 3)
+        self.useMatchAtom = Atom.Tabled("http://www.ease-crc.org/ont/SOMA_DFL.owl#useMatch")
+        self.useMatch = PredicateIndicator(self.useMatchAtom, 3)
         self.isInstanceOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isInstanceOf")
         self.isSubclassOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isSubclassOf")
         self.rdfType = IRIAtom("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
@@ -86,8 +96,8 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         if entity not in self.classes:
             query_term = GraphSequence([GraphPattern(IRIAtom(entity), self.rdfType, Variable("Z"))])
             retq = []
-            self.storage().query(GraphQuery(query_term), lambda bindings : retq.append(bindings.get(("Z"))))
-            retq = list(set().union(*[self.reasoner.whatSuperclasses(str(c)) for c in retq]))
+            self.storage().query(GraphQuery(query_term), lambda bindings : _addToResults(retq, "Z", bindings))
+            retq = list(set(retq).union(*[self.reasoner.whatSuperclasses(str(c)) for c in retq]))
         return retq
         
     def _ensureClass2Individuals(self, entity):
@@ -99,8 +109,7 @@ class SOMADFLReasoner(GoalDrivenReasoner):
             for sc in self.reasoner.whatSubclasses(str(entity)):
                 sc = self.reasoner.expandName(sc)
                 query_term = GraphSequence([GraphPattern(Variable("Z"), self.rdfType, IRIAtom(sc))])
-                self.storage().query(GraphQuery(query_term), lambda bindings : retq.add(str(bindings.get(("Z")))))
-                #self.storage().query(GraphQuery(query_term), lambda bindings : True)
+                self.storage().query(GraphQuery(query_term), lambda bindings : _addToResults(retq, "Z", bindings))
             retq = list(retq)
         return retq
                 
