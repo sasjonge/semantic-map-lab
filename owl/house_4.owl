@@ -7,7 +7,7 @@
          xmlns="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl#"
          xmlns:DUL="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
          xmlns:USD="https://ease-crc.org/ont/USD.owl#"
-         xmlns:dfl="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:dfl="http://www.ease-crc.org/ont/SOMA_DFL.owl#">
 
 <owl:Ontology rdf:about="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl">
   <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
@@ -444,6 +444,7 @@
 
 <owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#DiningTable_4_2_0">
   <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA_DFL.owl#table.n.wn.artifact..furniture"/>
   <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_4_2_0_xformOpOrder"/>
   <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DiningTable_4_2_0_xformOp_transform"/>
   <rdf:type>
@@ -1261,7 +1262,7 @@
 
 <owl:NamedIndividual rdf:about="https://ease-crc.org/ont/USD.owl#Egg_6_32">
   <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Prim"/>
-  <rdf:type rdf:resource="https://ease-crc.org/ont/USD.owl#Egg"/>
+  <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA_DFL.owl#boiled_egg.n.wn.food"/>
   <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOpOrder"/>
   <DUL:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Egg_6_32_xformOp_transform"/>
   <rdf:type>
