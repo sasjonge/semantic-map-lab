@@ -6,7 +6,8 @@
          xml:base="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl"
          xmlns="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl#"
          xmlns:DUL="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
-         xmlns:USD="https://ease-crc.org/ont/USD.owl#">
+         xmlns:USD="https://ease-crc.org/ont/USD.owl#"
+         xmlns:dfl="http://www.w3.org/2000/01/rdf-schema#">
 
 <owl:Ontology rdf:about="file:///media/giangnguyen/Storage/ProcTHOR_Converter/house_4/house_4.owl">
   <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
