@@ -86,7 +86,7 @@ class SOMADFLReasoner(GoalDrivenReasoner):
         if entity not in self.classes:
             query_term = GraphSequence([GraphPattern(IRIAtom(entity), self.rdfType, Variable("Z"))])
             retq = []
-            self.storage().query(GraphQuery(query_term), lambda bindings : retq.append(bindings.get(Variable("Z"))))
+            self.storage().query(GraphQuery(query_term), lambda bindings : retq.append(bindings.get(("Z"))))
             retq = list(set().union(*[self.reasoner.whatSuperclasses(str(c)) for c in retq]))
         return retq
         
