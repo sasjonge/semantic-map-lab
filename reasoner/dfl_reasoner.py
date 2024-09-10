@@ -27,6 +27,7 @@ class SOMADFLReasoner(GoalDrivenReasoner):
     def __init__(self):
         super().__init__()
         self.reasoner = dl.DFLReasoner()
+        self.reasoner.prefixesDFL["SOMA"] = self.reasoner.prefixesDFL["soma"] 
         self.hasDisposition = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#hasDisposition")
         self.isDispositionOf = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#isDispositionOf")
         self.hasPart = IRIAtom("http://www.ease-crc.org/ont/SOMA_DFL.owl#hasPart")
