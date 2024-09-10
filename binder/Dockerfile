@@ -102,7 +102,10 @@ ENV  PYTHONPATH=${PYTHONPATH}:${HOME}/konclude
 # Install SOMA DFL reasoner library
 WORKDIR ${HOME}
 RUN pip install inflection
-RUN git clone https://github.com/ease-crc/ease_lexical_resources.git
+RUN git clone https://github.com/ease-crc/ease_lexical_resources.git 
+WORKDIR ${HOME}/ease_lexical_resources/
+RUN git fetch && \
+git checkout 8a031b618b11456d2049af796e1744e9bdc59249
 WORKDIR ${HOME}/ease_lexical_resources/src
 RUN pip install -e .
 WORKDIR ${REPO_DIR}
