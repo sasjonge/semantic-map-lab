@@ -124,6 +124,7 @@ ENTRYPOINT ["/entrypoint.sh"]
 RUN mkdir -p ${HOME}/knowrob_ws && \
     ln -s ${HOME}/.knowrob/settings ${HOME}/knowrob_ws/settings && \
     ln -s ${HOME}/.knowrob/owl ${HOME}/knowrob_ws/owl && \
-    ln -s ${HOME}/.knowrob/reasoner ${HOME}/knowrob_ws/reasoner
+    ln -s ${HOME}/.knowrob/reasoner ${HOME}/knowrob_ws/reasoner && \
+    ln -s ${REPO_DIR}/notebooks ${HOME}/knowrob_ws/notebooks
 # Set the working directory to the new workspace
 WORKDIR ${HOME}/knowrob_ws
