@@ -119,3 +119,11 @@ COPY --chown=${NB_USER}:users settings ${HOME}/.knowrob/settings
 COPY --chown=${NB_USER}:users binder/entrypoint.sh /entrypoint.sh
 COPY --chown=${NB_USER}:users binder/webapps.json ${ROS_WS}/src/rvizweb/webapps/app.json
 ENTRYPOINT ["/entrypoint.sh"]
+
+# Create a workdir that only contains settings, owl, and reasoner (using ln)
+RUN mkdir -p ${HOME}/knowrob_ws && \
+    ln -s ${HOME}/.knowrob/settings ${HOME}/knowrob_ws/settings && \
+    ln -s ${HOME}/.knowrob/owl ${HOME}/knowrob_ws/owl && \
+    ln -s ${HOME}/.knowrob/reasoner ${HOME}/knowrob_ws/reasoner
+# Set the working directory to the new workspace
+WORKDIR ${HOME}/knowrob_ws
