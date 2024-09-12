@@ -105,7 +105,7 @@ RUN pip install inflection
 RUN git clone https://github.com/ease-crc/ease_lexical_resources.git 
 WORKDIR ${HOME}/ease_lexical_resources/
 RUN git fetch && \
-git checkout 8a031b618b11456d2049af796e1744e9bdc59249
+git checkout fb948b85c82869bd1aa9b95d451add906e5f10f8
 WORKDIR ${HOME}/ease_lexical_resources/src
 RUN pip install -e .
 WORKDIR ${REPO_DIR}
