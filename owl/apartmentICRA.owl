@@ -6,7 +6,8 @@
          xml:base="file:///media/giangnguyen/Storage/Multiverse-Tutorials/resources/apartmentICRA_full/owl/apartmentICRA.owl"
          xmlns="file:///media/giangnguyen/Storage/Multiverse-Tutorials/resources/apartmentICRA_full/owl/apartmentICRA.owl#"
          xmlns:DUL="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
-         xmlns:USD="https://ease-crc.org/ont/USD.owl#">
+         xmlns:USD="https://ease-crc.org/ont/USD.owl#"
+         xmlns:dfl="http://www.ease-crc.org/ont/SOMA_DFL.owl#">
 
 <owl:Ontology rdf:about="file:///media/giangnguyen/Storage/Multiverse-Tutorials/resources/apartmentICRA_full/owl/apartmentICRA.owl">
   <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
