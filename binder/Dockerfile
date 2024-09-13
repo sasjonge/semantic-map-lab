@@ -59,7 +59,7 @@ WORKDIR ${ROS_WS}/src
 RUN git clone https://github.com/knowrob/knowrob.git -b dev
 WORKDIR ${ROS_WS}/src/knowrob
 RUN git fetch && \
-git checkout 9f0ed52b242f3421f73c6e6aafcced5eef81b0c9
+git checkout 3db9c4727cae10b67544b47ac578da74a6ae7bde
 RUN source ${ROS_WS}/devel/setup.bash
 RUN pip install pyros-genmsg
 USER root
@@ -105,7 +105,7 @@ RUN pip install inflection
 RUN git clone https://github.com/ease-crc/ease_lexical_resources.git 
 WORKDIR ${HOME}/ease_lexical_resources/
 RUN git fetch && \
-git checkout fb948b85c82869bd1aa9b95d451add906e5f10f8
+git checkout e60d2aceacb73b91fba489009144315e3cee7b43
 WORKDIR ${HOME}/ease_lexical_resources/src
 RUN pip install -e .
 WORKDIR ${REPO_DIR}
